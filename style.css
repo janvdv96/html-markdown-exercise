@@ -1,0 +1,151 @@
+body{
+	background-color: #6b6054;
+}
+
+.container{
+	display: flex;
+	max-width: 1400px;
+	max-height: 800px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: auto;
+	margin-bottom: auto;
+	padding: 10px;
+	background-color: lightgrey;
+}
+
+.left{
+	width: 75%;
+	height: 100%;
+}
+
+.topleft{
+	height: 50%;
+	width: 100%;
+	float: left;
+	padding: 10px;
+}
+
+.bottomleft{
+	height: 50%;
+	float: left;
+	padding: 10px;
+}
+
+.right{
+	float: right;
+	padding: 10px;
+	margin-left: -20px;
+	width: 36%;
+	height: 100%;
+}
+
+.image{
+	width: 220px;
+	height: 220px;
+	max-width: 220px;
+	max-height: 220px;
+	border: 1px solid black;
+	filter: sepia(100%);
+}
+
+table, td, th{
+	border: 1px solid black;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.picture{
+	float: left;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	max-width: 300px;
+	max-height: 250px;
+	border-radius: 10px;
+	border: 2px solid #a1b0ab;
+	padding:10px;
+	background-color: #d3fff3;
+	text-align: center;
+	font-family: "Ubuntu";
+	font-size: 12px;
+	box-shadow: 5px 10px #7f0799;
+}
+
+.hobbies{	
+	float: right;
+	text-align: left;
+	margin-left: 20px;
+	margin-bottom: 20px;
+	width: 415px;
+	height:380px;
+	border-radius: 10px;
+	padding: 10px;
+	border: 2px solid #a1b0ab;
+	background-color: #d3fff3;
+	box-shadow: 5px 10px #7f0799;
+}
+
+h2, h3{
+	text-align: center;
+}
+
+.namebox{
+	display: flex;
+	align-items: center;
+	font-family: "Ubuntu";
+	width: 559px;
+	height: 45px;
+	border-radius: 10px;
+	border: 2px solid #a1b0ab;
+	padding: 10px;
+	background-color: #d3fff3;
+	box-shadow: 5px 10px #7f0799;
+}
+
+.name{
+	vertical-align: center;
+	color: darkgreen;
+	font-size: 33px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.info{
+	float: left;
+	margin-bottom: 20px;
+	text-align: center;
+	font-family: "Ubuntu";
+	width: 559px;
+	height:150px;
+	border-radius: 10px;
+	border: 2px solid #a1b0ab;
+	padding: 10px;
+	background-color: #d3fff3;
+	box-shadow: 5px 10px #7f0799;
+}
+
+.story{
+	float: left;
+	text-align: left;
+	font-family: "Ubuntu";
+	font-size: 15px;
+	max-width: 890px;
+	max-height:250px;
+	padding: 10px;
+	border-radius: 10px;
+	border: 2px solid #a1b0ab;
+	background-color: #d3fff3;
+	box-shadow: 5px 10px #7f0799;
+}
+
+.links{
+	float: right;
+	width: 415px;
+	height:120px;
+	border-radius: 10px;
+	border: 2px solid #a1b0ab;
+	padding: 10px;
+	background-color: #d3fff3;
+	box-shadow: 5px 10px #7f0799;
+}
